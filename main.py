@@ -19,7 +19,7 @@ def palindrom(message):
 def caps(message):
     text = ' '.join(message.text.split()[1:])
     caps_text = text.upper()
-    bot.send_message(message.chat.id, f"Текст в заглавных буквах: {caps_text}")
+    bot.send_message(message.chat.id, f"Текст   в заглавных буквах: {caps_text}")
 
 
 @bot.message_handler(commands=['letter'])
